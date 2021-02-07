@@ -26,13 +26,6 @@ body {
   padding: 20px;
   margin: 0px;
 }
-.gallery-row div {
-	margin:5px;
-	padding:0px;
-}
-.gallery-row div img {
-	object-fit: cover;
-}
 
 /*imgs*/
 .img-wrapper {
