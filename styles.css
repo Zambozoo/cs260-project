@@ -26,16 +26,21 @@ body {
   padding: 20px;
   margin: 0px;
 }
+.gallery-row div {
+	margin:5px;
+	padding:0px;
+}
+.gallery-row div img {
+	object-fit: cover;
+}
 
 /*imgs*/
 .img-wrapper {
 	padding:5px;
+	margin:5px;
 }
 .img-wrapper:hover {
 	background-color:#777!important;
-}
-.gallery-row div img {
-	margin:10px;
 }
 
 @media (min-width: 48em) {
