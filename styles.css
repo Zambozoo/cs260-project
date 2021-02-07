@@ -32,6 +32,9 @@ body {
 	padding:5px;
 	margin:5px;
 }
+.img-text {
+	margin-bottom:0px;
+}
 .img-wrapper:hover {
 	background-color:#777!important;
 }
