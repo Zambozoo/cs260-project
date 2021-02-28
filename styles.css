@@ -30,6 +30,10 @@ body {
 	font-style:italic;
 }
 
+.text-center {
+	text-align:center;
+}
+
 /*imgs*/
 .img-wrapper {
 	padding:5px;

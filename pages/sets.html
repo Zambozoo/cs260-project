@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+    <title>Sets | BIONICLE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+	<link rel='stylesheet' href='../styles.css'/>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><strong>BIONICLE</strong></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+			  <li class="nav-item">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="story.html">Story</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Sets</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+    </header>
+	
+	<div class="text-section bg-light text-dark">
+        <h2>Set Info</h2>
+        <p class='subtitle'>Through the Rebrickable API</p>
+	    <p>
+			Search among any LEGO® set by set number to see its name, part numbers, image, and theme.
+			<br>
+			From the LEGO® site:</p>
+		<p><strong><q>
+			Set numbers are 5-7 digits long and are featured prominently on the box and instructions for the set. <br> 
+			You can also find the set number when you're browsing LEGO® Shop or on our product pages.
+		</q></strong></p>
+		
+		<p>
+			Here are some set numbers, feel free to try ones around these or others found online.
+			<li>75192 : Millenium Falcon</li>
+			<li>75159 : Death Star</li>
+			<li>75252 : Star Destroyer</li>
+			<li>10276 : Colosseum</li>
+			<li>8532 - 8537 : Toa Mata</li>
+		</p>
+		
+		
+		<form class="set-form">
+		  <label>Enter a set number:</label>
+		  <input id="setInput" type="text"></input>
+		  <input id="setSubmit" type="submit" value="Submit"></input>
+		</form>
+    </div>
+	
+	<div id="setInfo">
+	</div>
+	
+	<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><strong>BIONICLE</strong></a>
+        <div id="navbarFooter">
+          <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://lego.com/">LEGO®</a>
+          </li>
+	      <li class="nav-item">
+            <a class="nav-link" href="https://github.com/Zambozoo/cs260-project">Github</a>
+          </li>
+        </div>
+      </div>
+    </nav>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	<script text="type/javascript" src="../script.js"></script>
+  </body>
+</html>
